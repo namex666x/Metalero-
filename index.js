@@ -1,7 +1,7 @@
 const noBtn = document.querySelector('#noBtn');
 
 noBtn.addEventListener('click',function () {
-    alert('Pinche Posser Bv')
+    alert('Pinche Posser :v')
 });
 
 const yesBtn = document.querySelector('#yesBtn');
