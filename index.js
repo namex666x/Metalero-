@@ -4,13 +4,13 @@ noBtn.addEventListener('click',function () {
     alert('Pinche Posser :v')
 });
 
-const siBtn = document.querySelector('#siBtn');
+const yesBtn = document.querySelector('#yesBtn');
 
-siBtn.addEventListener('mouseover',function () {
+yesBtn.addEventListener('mouseover',function () {
     const randomX = parseInt(Math.random()*100);
     const randomY = parseInt(Math.random()*100);
-    siBtn.style.setProperty('top',randomY+'%');
-    siBtn.style.setProperty('left',randomX+'%');
-    siBtn.style.setProperty('transform'`traslate(-${randomX}%-${randomY}%)`);
+    yesBtn.style.setProperty('top',randomY+'%');
+    yesBtn.style.setProperty('left',randomX+'%');
+    yesBtn.style.setProperty('transform'`traslate(-${randomX}%-${randomY}%)`);
      
 })
